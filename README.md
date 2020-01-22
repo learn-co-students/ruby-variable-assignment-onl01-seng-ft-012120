@@ -1,8 +1,12 @@
-# Variable Assignment
+# Variable Assignment 
+greeting = Hello World
+
+
 
 ## Objectives
 
 1. Assign a local variable.
+'greeting'
 
 ## Instructions
 
@@ -16,8 +20,9 @@ Upon the first run of the test suite you should see:
 Failures:
 
   1) ./variable.rb defined a local variable called greeting and set it equal to 'Hello World'
-     Failure/Error: greeting = get_variable_from_file('./variable.rb', "greeting")
-     NameError:
+     Failure/Error: greeting = 
+     get_variable_from_file('./variable.rb', "greeting")
+     NameError: 
        local variable `greeting' not defined in ./variable.rb.
      # ./spec/spec_helper.rb:14:in `rescue in get_variable_from_file'
      # ./spec/spec_helper.rb:11:in `get_variable_from_file'
